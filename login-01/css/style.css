@@ -1,1 +1,42 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(/login-01/img/fundo.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+  background-color: darkcyan;
+}
+
+.container .inicio-container h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  color: white;
+}
+.container .inicio-container .img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container .final-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
