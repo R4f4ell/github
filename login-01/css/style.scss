@@ -6,6 +6,7 @@
 
 body{
     position: relative;
+    background-color: #319FC6;
     background: url(/login-01/img/fundo.jpg);
     background-size: cover;
     width: 100vw;
@@ -38,6 +39,7 @@ body{
     &:hover{
         transform: scale(1.06);
         transition: .5s;
+        cursor: pointer;
     }
 }
 
@@ -80,6 +82,7 @@ body{
         margin-top: 10px;
         padding: 10px;
         border: 0px solid transparent;
+        cursor: pointer;
     }
 
 

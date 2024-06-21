@@ -1,0 +1,12 @@
+/* Telefones pequenos */
+@media only screen and (max-width: 600px) {
+    .input-container > form > div > input{
+        border-radius: 10px;
+        border: 0px ;
+    }
+    
+    .interrogacao{
+        display: none;
+    }
+
+}
