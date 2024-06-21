@@ -5,6 +5,7 @@
 }
 
 body{
+    position: relative;
     background: url(/login-01/img/fundo.jpg);
     background-size: cover;
     width: 100vw;
@@ -15,12 +16,29 @@ body{
 }
 
 .container{
+    position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 450px;
     height: 500px;
-    background-color: darkcyan;
+}
+
+.interrogacao {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px 20px;
+
+    img{
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    &:hover{
+        transform: scale(1.06);
+        transition: .5s;
+    }
 }
 
 .container .inicio-container {
@@ -35,16 +53,36 @@ body{
     .img-container{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
 }
 
-
-.container .final-container{
+.input-container{
+    width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
+
+    div input{
+        margin: 10px 0;
+        width: 250px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    button{
+        background-color: rgba(0, 0, 0, 0.404);
+        color: white;
+        width: 250px;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+        padding: 10px;
+        border: 0px solid transparent;
+    }
+
+
+
 }
-
-
 
